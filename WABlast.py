@@ -12,7 +12,7 @@ caption in here
 
  
 #mode safe --> 1 Per minute
-number = ['+628xxxxxxxxxx']
+number = ['+628xxxxxxxxxx','+628xxxxxxxxxx','+628xxxxxxxxxx','+628xxxxxxxxxx']
 for i in range(len(number)):
     try:
         pwt.sendwhats_image(number[i], 'image.png',caption=caption, wait_time=30)
